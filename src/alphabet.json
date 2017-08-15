@@ -1,0 +1,182 @@
+[
+    {
+        "type":         "letter",
+        "character":    "A",
+        "phonetic":     "Alpha"
+    },
+    {
+        "type":         "letter",
+        "character":    "B",
+        "phonetic":     "Beta"
+    },
+    {
+        "type":         "letter",
+        "character":    "C",
+        "phonetic":     "Charlie"
+    },
+    {
+        "type":         "letter",
+        "character":    "E",
+        "phonetic":     "Echo"
+    },
+    {
+        "type":         "letter",
+        "character":    "F",
+        "phonetic":     "Foxtrot"
+    },
+    {
+        "type":         "letter",
+        "character":    "G",
+        "phonetic":     "Golf"
+    },
+    {
+        "type":         "letter",
+        "character":    "H",
+        "phonetic":     "Hotel"
+    },
+    {
+        "type":         "letter",
+        "character":    "I",
+        "phonetic":     "India"
+    },
+    {
+        "type":         "letter",
+        "character":    "J",
+        "phonetic":     "Juliett"
+    },
+    {
+        "type":         "letter",
+        "character":    "K",
+        "phonetic":     "Kilo"
+    },
+    {
+        "type":         "letter",
+        "character":    "L",
+        "phonetic":     "Lima"
+    },
+    {
+        "type":         "letter",
+        "character":    "M",
+        "phonetic":     "Mike"
+    },
+    {
+        "type":         "letter",
+        "character":    "N",
+        "phonetic":     "November"
+    },
+    {
+        "type":         "letter",
+        "character":    "O",
+        "phonetic":     "Oscar"
+    },
+    {
+        "type":         "letter",
+        "character":    "P",
+        "phonetic":     "Papa"
+    },
+    {
+        "type":         "letter",
+        "character":    "Q",
+        "phonetic":     "Quebec"
+    },
+    {
+        "type":         "letter",
+        "character":    "R",
+        "phonetic":     "Romeo"
+    },
+    {
+        "type":         "letter",
+        "character":    "S",
+        "phonetic":     "Sierra"
+    },
+    {
+        "type":         "letter",
+        "character":    "T",
+        "phonetic":     "Tango"
+    },
+    {
+        "type":         "letter",
+        "character":    "U",
+        "phonetic":     "Uniform"
+    },
+    {
+        "type":         "letter",
+        "character":    "V",
+        "phonetic":     "Victor"
+    },
+    {
+        "type":         "letter",
+        "character":    "W",
+        "phonetic":     "Whiskey"
+    },
+    {
+        "type":         "letter",
+        "character":    "X",
+        "phonetic":     "Xray"
+    },
+    {
+        "type":         "letter",
+        "character":    "Y",
+        "phonetic":     "Yankee"
+    },
+    {
+        "type":         "letter",
+        "character":    "Z",
+        "phonetic":     "Zulu"
+    },
+    {
+        "type":         "number",
+        "character":    "1",
+        "phonetic":     "One"
+    },
+    {
+        "type":         "number",
+        "character":    "2",
+        "phonetic":     "Two"
+    },
+    {
+        "type":         "number",
+        "character":    "3",
+        "phonetic":     "Three"
+    },
+    {
+        "type":         "number",
+        "character":    "4",
+        "phonetic":     "Four"
+    },
+    {
+        "type":         "number",
+        "character":    "5",
+        "phonetic":     "Five"
+    },
+    {
+        "type":         "number",
+        "character":    "6",
+        "phonetic":     "Six"
+    },
+    {
+        "type":         "number",
+        "character":    "7",
+        "phonetic":     "Seven"
+    },
+    {
+        "type":         "number",
+        "character":    "8",
+        "phonetic":     "Eight"
+    },
+    {
+        "type":         "number",
+        "character":    "9",
+        "phonetic":     "Nine"
+    },
+    {
+        "type":         "number",
+        "character":    "0",
+        "phonetic":     "Zero"
+    },
+    {
+        "type":         "punctuation",
+        "character":    " ",
+        "phonetic":     "SPACE"
+    }
+]

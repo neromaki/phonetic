@@ -1,0 +1,24 @@
+.phonetic-tile {
+    background: darken(#fff, 6%);
+    box-shadow: 0 6px 0 0 darken(#fff, 16%);
+    padding: 25px 20px;
+    cursor: default;
+    transition: transform .2s ease-out, box-shadow .15s ease-out;
+    border-radius: 5px;
+
+    h3 {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    h4 {
+        text-align: right;
+    }
+
+    &:hover {
+        //transform: scale(1.025);
+        //box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .2);
+        background: darken(#fff, 8%);
+    }
+}
