@@ -1,0 +1,27 @@
+section.phonetic-output {
+    padding: 50px 25px;
+    padding-top: 0;
+    // background: url('../static/img/new-year-background.png');
+    //background: lighten(#EBFDDA, 6%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 72px;
+    position: relative;
+    z-index: 1;
+
+    span {
+        margin-right: 15px;
+        margin-bottom: 20px;
+        font-size: 2em;
+        background: #fff;
+        padding: 8px 15px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+
+        &.punctuation {
+            font-style: italic;
+            text-transform: lowercase;
+        }
+    }
+}

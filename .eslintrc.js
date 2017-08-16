@@ -11,7 +11,7 @@ module.exports = {
   },
   globals: {
     '_': true,
-  }, 
+  },
   extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
@@ -27,6 +27,10 @@ module.exports = {
   },
   // add your custom rules here
   'rules': {
+      'no-plusplus': 'off',
+      'no-param-reassign': 'off',
+      'no-console': 'off',
+      'prefer-template': 'off',
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       'js': 'never',

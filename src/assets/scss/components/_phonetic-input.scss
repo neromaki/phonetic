@@ -1,0 +1,59 @@
+.phonetic-io {
+    background: url('../static/img/pattern-blue.svg');
+    position: relative;
+
+    &:after {
+        z-index: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(270deg, rgba(255,255,255,0.05) 0%, rgba(2,5,28,0.2) 100%);
+    }
+}
+
+section.phonetic-input {
+    z-index: 1;
+    padding: 50px 25px;
+    padding-bottom: 80px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 1.2em;
+
+        span {
+            min-width: 100px;
+            display: inline-block;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-transform: lowercase;
+        }
+    }
+
+    input {
+        margin: 0 auto;
+        padding: 16px 20px;
+        font-size: 1.25em;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .05);
+        text-transform: uppercase;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12), 0 1px 3px 0 rgba(0,0,0,.2) inset;
+
+        &::placeholder {
+            text-transform: none;
+        }
+    }
+}

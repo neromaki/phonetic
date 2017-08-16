@@ -1,9 +1,6 @@
 <template>
     <section class="phonetic-output">
-        <div class="container is-fluid">
-            <h2>Output</h2>
-            <span v-for="character in output">{{ character.phonetic }}</span>
-        </div>
+        <span v-for="character in output" v-bind:class="character.type">{{ character.phonetic }}</span>
     </section>
 </template>
 

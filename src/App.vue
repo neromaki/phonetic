@@ -1,7 +1,9 @@
 <template>
       <main id="app">
-        <phonetic-input></phonetic-input>
-        <phonetic-output></phonetic-output>
+        <div class="phonetic-io">
+            <phonetic-input></phonetic-input>
+            <phonetic-output></phonetic-output>
+        </div>
         <phonetic-alphabet></phonetic-alphabet>
     </main>
 </template>
@@ -21,7 +23,11 @@ export default {
 };
 </script>
 
+<style type="text/css">
+    @import '../node_modules/normalize.css/normalize.css';
+</style>
+
 <style lang="scss">
-@import '../node_modules/bulma/css/bulma.css';
+@import '../node_modules/avalanche-css/avalanche.min.css';
 @import 'assets/scss/app.scss';
 </style>

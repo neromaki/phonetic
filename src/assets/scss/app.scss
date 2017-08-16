@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Comfortaa');
+
 @import 'variables';
 @import 'base';
 @import 'structure';
 
+@import 'components/header';
+@import 'components/footer';
+@import 'components/phonetic-input';
+@import 'components/phonetic-output';
+@import 'components/phonetic-alphabet';
 @import 'components/tile';

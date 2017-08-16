@@ -16,6 +16,11 @@
     },
     {
         "type":         "letter",
+        "character":    "D",
+        "phonetic":     "Delta"
+    },
+    {
+        "type":         "letter",
         "character":    "E",
         "phonetic":     "Echo"
     },
@@ -177,6 +182,6 @@
     {
         "type":         "punctuation",
         "character":    " ",
-        "phonetic":     "SPACE"
+        "phonetic":     "Space"
     }
 ]
