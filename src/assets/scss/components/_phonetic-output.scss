@@ -1,14 +1,15 @@
 section.phonetic-output {
     padding: 50px 25px;
     padding-top: 0;
-    // background: url('../static/img/new-year-background.png');
-    //background: lighten(#EBFDDA, 6%);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-height: 72px;
-    position: relative;
-    z-index: 1;
+
+    .output {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-height: 72px;
+        position: relative;
+        z-index: 1;
+    }
 
     span {
         margin-right: 15px;
@@ -22,6 +23,67 @@ section.phonetic-output {
         &.punctuation {
             font-style: italic;
             text-transform: lowercase;
+        }
+
+        &.active {
+            background: #355c79;
+            color: #fff;
+
+            &--1 {
+                background: #7782b9;
+                color: #fff;
+            }
+            &--2 {
+                background: #b2b977;
+                color: #fff;
+            }
+            &--3 {
+                background: #77b98e;
+                color: #fff;
+            }
+            &--4 {
+                background: #4a82ba;
+                color: #fff;
+            }
+        }
+    }
+
+    .output-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        z-index: 1;
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background: #fcfcfc;
+            background: #2b2b2b;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+            z-index: 1;
+            margin: 0 10px;
+
+            &:hover {
+                background: darken(#fcfcfc, 4%);
+                background: lighten(#2b2b2b, 6%);
+            }
+
+            svg {
+                height: 30px;
+                width: 30px;
+                fill: #2b2b2b;
+                fill: #fcfcfc;
+            }
+
+            &.next {
+
+            }
+
+            &.prev {
+
+            }
         }
     }
 }
