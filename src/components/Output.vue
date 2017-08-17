@@ -3,20 +3,6 @@
         <div class="output">
             <span v-for="character in output" v-bind:class="[character.active ? 'active' : '', character.type]">{{ character.phonetic }}</span>
         </div>
-        <!--
-        <div class="output">
-            <span v-for="character in output" v-bind:class="[character.active ? 'active--1' : '', character.type]">{{ character.phonetic }}</span>
-        </div>
-        <div class="output">
-            <span v-for="character in output" v-bind:class="[character.active ? 'active--2' : '', character.type]">{{ character.phonetic }}</span>
-        </div>
-        <div class="output">
-            <span v-for="character in output" v-bind:class="[character.active ? 'active--3' : '', character.type]">{{ character.phonetic }}</span>
-        </div>
-        <div class="output">
-            <span v-for="character in output" v-bind:class="[character.active ? 'active--4' : '', character.type]">{{ character.phonetic }}</span>
-        </div>
-    -->
 
         <div v-if="output.length > 0" class="output-controls">
             <button type="button" class="previous" data-action="previous" @click="phoneticMovePrevious">

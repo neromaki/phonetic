@@ -9,16 +9,25 @@ section.phonetic-output {
         min-height: 72px;
         position: relative;
         z-index: 1;
+
+        @media (max-width: 500px) {
+            min-height: initial;
+        }
     }
 
     span {
         margin-right: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         font-size: 2em;
         background: #fff;
         padding: 8px 15px;
         border-radius: 4px;
         box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+
+        @media (max-width: 500px) {
+            padding: 8px 10px;
+            font-size: 1.5em;
+        }
 
         &.punctuation {
             font-style: italic;
@@ -28,23 +37,6 @@ section.phonetic-output {
         &.active {
             background: #355c79;
             color: #fff;
-
-            &--1 {
-                background: #7782b9;
-                color: #fff;
-            }
-            &--2 {
-                background: #b2b977;
-                color: #fff;
-            }
-            &--3 {
-                background: #77b98e;
-                color: #fff;
-            }
-            &--4 {
-                background: #4a82ba;
-                color: #fff;
-            }
         }
     }
 
@@ -53,6 +45,10 @@ section.phonetic-output {
         justify-content: center;
         margin-top: 25px;
         z-index: 1;
+
+        @media (max-width: 500px) {
+            justify-content: space-between;
+        }
 
         button {
             padding: 10px 20px;
@@ -65,6 +61,11 @@ section.phonetic-output {
             z-index: 1;
             margin: 0 10px;
 
+            @media (max-width: 500px) {
+                padding: 10px 30px;
+                background: darken(#fcfcfc, 10%);
+            }
+
             &:hover {
                 background: darken(#fcfcfc, 4%);
                 background: lighten(#2b2b2b, 6%);
@@ -75,14 +76,10 @@ section.phonetic-output {
                 width: 30px;
                 fill: #2b2b2b;
                 fill: #fcfcfc;
-            }
 
-            &.next {
-
-            }
-
-            &.prev {
-
+                @media (max-width: 500px) {
+                    fill: #2b2b2b;
+                }
             }
         }
     }

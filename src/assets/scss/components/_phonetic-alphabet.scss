@@ -1,4 +1,10 @@
 section.phonetic-alphabet {
     padding: 50px 25px;
     background: #eee;
+
+    .grid__cell {
+        @media (max-width: 500px) {
+            padding-left: 10px;
+        }
+    }
 }

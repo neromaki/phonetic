@@ -10,6 +10,12 @@
     min-width: 75px;
     margin-bottom: 20px;
 
+    @media (max-width: 500px) {
+        padding: 12px 10px;
+        min-width: 55px;
+        margin-bottom: 10px;
+    }
+
     h3,
     h4 {
         margin: 0;
@@ -19,12 +25,20 @@
         display: block;
         text-align: center;
         font-size: 2em;
+
+        @media (max-width: 500px) {
+            font-size: 1.4em;
+        }
     }
 
     h4 {
         font-family: 'Roboto', sans-serif;
         text-align: right;
         margin-top: 10px;
+
+        @media (max-width: 500px) {
+            font-size: .8em;
+        }
     }
 
     &:hover {
