@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "phonetic",
+  "launch_path": "/index.html",
+  "description": "An easy solution to your spelling-over-the-phone problems.",
+  "icons": {
+    "128": "/static/img/icons/favicon-128x128.png"
+  },
+  "developer": {
+    "name": "Shaun Wall",
+    "url": "https://www.twitter.com/nomaki"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "phonetic",
+      "description": "An easy solution to your spelling-over-the-phone problems."
+    }
+  }
+}

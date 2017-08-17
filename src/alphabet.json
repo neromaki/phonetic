@@ -183,5 +183,175 @@
         "type":         "punctuation",
         "character":    " ",
         "phonetic":     "Space"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ";",
+        "phonetic":     "Semi-colon"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ":",
+        "phonetic":     "Colon"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ",",
+        "phonetic":     "Comma"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ".",
+        "phonetic":     "Full-stop"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "?",
+        "phonetic":     "Question mark"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "!",
+        "phonetic":     "Exclamation mark"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "@",
+        "phonetic":     "At symbol"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "#",
+        "phonetic":     "Hash"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "&",
+        "phonetic":     "Ampersand"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "£",
+        "phonetic":     "Pound sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "$",
+        "phonetic":     "Dollar sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "€",
+        "phonetic":     "Euro sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "%",
+        "phonetic":     "Percentage sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "*",
+        "phonetic":     "Asterisk"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "-",
+        "phonetic":     "Dash"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "_",
+        "phonetic":     "Underscore"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "\"",
+        "phonetic":     "Quotation mark"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "'",
+        "phonetic":     "Single quote"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "|",
+        "phonetic":     "Pipe"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "\\",
+        "phonetic":     "Back slash"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "/",
+        "phonetic":     "Forward slash"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "^",
+        "phonetic":     "Caret"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "(",
+        "phonetic":     "Left bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ")",
+        "phonetic":     "Right bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "[",
+        "phonetic":     "Left square bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "]",
+        "phonetic":     "Right square bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "{",
+        "phonetic":     "Left curly bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "}",
+        "phonetic":     "Right curly bracket"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "<",
+        "phonetic":     "Less than sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    ">",
+        "phonetic":     "Greater than sign"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "=",
+        "phonetic":     "Equals"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "+",
+        "phonetic":     "Plus"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "~",
+        "phonetic":     "Tilde"
+    },
+    {
+        "type":         "punctuation",
+        "character":    "`",
+        "phonetic":     "Grave accent"
     }
 ]

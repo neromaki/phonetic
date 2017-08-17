@@ -1,0 +1,25 @@
+{
+  "name": "phonetic",
+  "short_name": "phonetic",
+  "icons": [{
+        "src": "static/img/icons/favicon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "static/img/icons/apple-touch-icon.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "static/img/icons/mstile-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "static/img/icons/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#a0bbd0",
+  "theme_color": "#6698c7"
+}

@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Shaun Wall -- Developer -- @nomaki
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Vue.js
