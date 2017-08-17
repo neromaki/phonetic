@@ -1,0 +1,39 @@
+footer {
+    background: lighten(#1e1e1e, 5%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 30px;
+        }
+
+        span,
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: darken(#fff, 1%);
+            margin: 0;
+        }
+
+        span {
+            margin: 0 6px 0 10px;
+        }
+
+        a {
+            color: #73c1ee;
+        }
+
+        &:last-child {
+            span,
+            a {
+                font-size: .8em;
+            }
+        }
+    }
+}

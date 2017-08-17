@@ -4,4 +4,24 @@ header {
     h1 {
         margin: 0;
     }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-social {
+        display: flex;
+        align-items: center;
+
+        a {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        svg {
+            height: 20px;
+            width: 30px;
+        }
+    }
 }
