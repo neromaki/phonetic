@@ -2,6 +2,11 @@
 
 > Makes speaking over the phone easier with read-along phonetic output
 
+
+## Tech
+Uses VueJS, which you can learn about [over here](https://vuejs.org/)
+
+
 ## Build Setup
 
 ``` bash
