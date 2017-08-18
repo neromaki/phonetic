@@ -47,7 +47,9 @@ export default {
         }
       });
       that.output = phoneticOutput;
-      that.output[0].active = true;
+      if (that.output.length > 0) {
+        that.output[0].active = true;
+      }
     });
   },
   methods: {
