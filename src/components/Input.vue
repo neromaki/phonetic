@@ -1,6 +1,6 @@
 <template>
     <section class="phonetic-input">
-            <p>for when you can't remember <span class="phonetic-input--wrap"><span>{{ phoneticOne.phonetic }}</span> from <span>{{ phoneticTwo.phonetic }}</span></span></p>
+            <p>for when you can't remember <span class="phonetic-input--wrap"><span>{{ phonemeOne.phonetic }}</span> from <span>{{ phonemeTwo.phonetic }}</span></span></p>
             <label id="phonetic-input--label" for="phonetic-input">Type in what you're trying to say</label>
             <input type="text" id="phonetic-input" class="phonetic-input" v-model="input" ref="phoneticInput" @keyup="updateOutput()" placeholder="Type in what you're trying to say" aria-labelledby="phonetic-input--label" autofocus>
     </section>
@@ -14,8 +14,8 @@ export default {
   data() {
     return {
       input: '',
-      phoneticOne: '',
-      phoneticTwo: '',
+      phonemeOne: '',
+      phonemeTwo: '',
     };
   },
   mounted() {
@@ -33,8 +33,11 @@ export default {
       this.$root.$emit('phoneticUpdate', this.input);
     },
     updatePhonetics() {
-      this.phoneticOne = PhoneticAlphabet[_.random(0, 24)];
-      this.phoneticTwo = PhoneticAlphabet[_.random(0, 24)];
+      this.phonemeOne = PhoneticAlphabet[_.random(0, 24)];
+      this.phonemeTwo = PhoneticAlphabet[_.random(0, 24)];
+      while (this.phonemeOne === this.phonemeTwo) {
+        this.phonemeTwo = PhoneticAlphabet[_.random(0, 24)];
+      }
     },
   },
 };
