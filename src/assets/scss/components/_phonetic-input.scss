@@ -40,6 +40,11 @@ section.phonetic-input {
         }
     }
 
+    label {
+        position: absolute;
+        left: -10000px;
+    }
+
     input {
         margin: 0 auto;
         padding: 16px 20px;

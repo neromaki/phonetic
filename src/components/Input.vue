@@ -1,7 +1,8 @@
 <template>
     <section class="phonetic-input">
             <p>for when you can't remember <span class="phonetic-input--wrap"><span>{{ phoneticOne.phonetic }}</span> from <span>{{ phoneticTwo.phonetic }}</span></span></p>
-            <input type="text" class="phonetic-input" v-model="input" @keyup="updateOutput()" placeholder="Type in what you're trying to say" />
+            <label id="phonetic-input--label" for="phonetic-input">Type in what you're trying to say</label>
+            <input type="text" id="phonetic-input" class="phonetic-input" v-model="input" @keyup="updateOutput()" placeholder="Type in what you're trying to say" aria-labelledby="phonetic-input--label" />
     </section>
 </template>
 

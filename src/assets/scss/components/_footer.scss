@@ -29,7 +29,8 @@ footer {
             color: #73c1ee;
         }
 
-        &:last-child {
+        &:nth-child(n+1) {
+            margin-bottom: 5px;
             span,
             a {
                 font-size: .8em;
