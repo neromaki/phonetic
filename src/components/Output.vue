@@ -18,6 +18,10 @@
 <script type="text/javascript">
 import PhoneticAlphabet from '@/alphabet.json';
 
+const find = require('lodash/find');
+const each = require('lodash/each');
+const findIndex = require('lodash/findIndex');
+
 export default {
   name: 'Output',
   data() {
@@ -30,8 +34,8 @@ export default {
     this.$root.$on('phoneticUpdate', (input) => {
       const phoneticOutput = [];
 
-      _.each(input, (char) => {
-        const character = _.find(PhoneticAlphabet, { character: char.toUpperCase() });
+      each(input, (char) => {
+        const character = find(PhoneticAlphabet, { character: char.toUpperCase() });
         if (character) {
           character.active = false;
           // Pushing the actual object from the json creates a reference to it instead of a copy,
@@ -54,7 +58,7 @@ export default {
   },
   methods: {
     phoneticMoveNext() {
-      const charIndex = _.findIndex(this.output, { active: true });
+      const charIndex = findIndex(this.output, { active: true });
 
       if (charIndex >= 0 && (charIndex + 1) <= (this.output.length - 1)) {
         this.output[charIndex].active = false;
@@ -63,7 +67,7 @@ export default {
     },
 
     phoneticMovePrevious() {
-      const charIndex = _.findIndex(this.output, { active: true });
+      const charIndex = findIndex(this.output, { active: true });
 
       if ((charIndex - 1) >= 0 && charIndex <= (this.output.length - 1)) {
         this.output[charIndex].active = false;

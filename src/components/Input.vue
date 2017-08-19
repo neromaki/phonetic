@@ -9,6 +9,8 @@
 <script type="text/javascript">
 import PhoneticAlphabet from '@/alphabet.json';
 
+const random = require('lodash/random');
+
 export default {
   name: 'Input',
   data() {
@@ -33,10 +35,10 @@ export default {
       this.$root.$emit('phoneticUpdate', this.input);
     },
     updatePhonetics() {
-      this.phonemeOne = PhoneticAlphabet[_.random(0, 24)];
-      this.phonemeTwo = PhoneticAlphabet[_.random(0, 24)];
+      this.phonemeOne = PhoneticAlphabet[random(0, 24)];
+      this.phonemeTwo = PhoneticAlphabet[random(0, 24)];
       while (this.phonemeOne === this.phonemeTwo) {
-        this.phonemeTwo = PhoneticAlphabet[_.random(0, 24)];
+        this.phonemeTwo = PhoneticAlphabet[random(0, 24)];
       }
     },
   },
