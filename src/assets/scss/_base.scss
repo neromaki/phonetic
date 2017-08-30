@@ -2,6 +2,17 @@ html {
     font-family: 'PT Sans', sans-serif;
 }
 
+button,
+a {
+    &:focus {
+        outline: 0;
+    }
+}
+
+main {
+    background: url('../static/img/asia-background.jpg');
+}
+
 h1 {
     font-family: 'Comfortaa', cursive;
 }

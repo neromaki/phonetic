@@ -21,7 +21,7 @@ section.phonetic-output {
         font-size: 2em;
         background: #fff;
         padding: 8px 15px;
-        border-radius: 4px;
+        border-radius: 2px;
         box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
 
         @media (max-width: 500px) {
@@ -35,7 +35,8 @@ section.phonetic-output {
         }
 
         &.active {
-            background: #355c79;
+            // background: #355c79;
+            background: $pink;
             color: #fff;
         }
     }
@@ -51,11 +52,10 @@ section.phonetic-output {
         }
 
         button {
-            padding: 10px 20px;
+            padding: 8px 15px 5px;
             cursor: pointer;
             border: none;
-            background: #fcfcfc;
-            background: #2b2b2b;
+            background: $blue;
             border-radius: 5px;
             box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
             z-index: 1;
@@ -67,13 +67,12 @@ section.phonetic-output {
             }
 
             &:hover {
-                background: darken(#fcfcfc, 4%);
-                background: lighten(#2b2b2b, 6%);
+                background: darken($blue, 5%);
             }
 
             svg {
-                height: 30px;
-                width: 30px;
+                height: 20px;
+                width: 20px;
                 fill: #2b2b2b;
                 fill: #fcfcfc;
 

@@ -1,5 +1,5 @@
 .phonetic-io {
-    background: url('../static/img/pattern-blue.svg');
+    // background: url('../static/img/asia-background.jpg');
     position: relative;
 
     &:after {
@@ -10,7 +10,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(270deg, rgba(255,255,255,0.05) 0%, rgba(2,5,28,0.2) 100%);
+        // background: linear-gradient(270deg, rgba(255,255,255,0.05) 0%, rgba(2,5,28,0.2) 100%);
     }
 }
 
@@ -31,12 +31,16 @@ section.phonetic-input {
         margin-bottom: 25px;
         font-size: 1.2em;
 
-        span {
-            min-width: 100px;
+        .phonetic-input--wrap > span {
+            min-width: 110px;
             display: inline-block;
-            font-size: 1.1em;
+            font-size: 1.25em;
             font-weight: 600;
             text-transform: lowercase;
+            background: $blue;
+            padding: 3px 0 5px;
+            border-radius: 2px;
+            text-shadow: 0px 0px 15px rgba(43, 43, 43, 0.15)
         }
     }
 

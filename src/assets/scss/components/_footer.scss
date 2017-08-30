@@ -1,5 +1,5 @@
 footer {
-    background: lighten(#1e1e1e, 5%);
+    background: #212121;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -26,7 +26,8 @@ footer {
         }
 
         a {
-            color: #73c1ee;
+            //color: #73c1ee;
+            color: $pink;
         }
 
         &:nth-child(n+1) {

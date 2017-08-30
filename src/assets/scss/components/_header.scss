@@ -1,8 +1,29 @@
 header {
     padding: 10px 15px;
 
+    .container {
+        > div:first-child {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    img {
+        display: inline-block;
+        margin-right: 15px;
+        max-width: 40px;
+        max-height: 32px;
+        position: relative;
+        top: -3px;
+    }
+
     h1 {
         margin: 0;
+        display: inline-block;
+
+        span {
+            color: $pink;
+        }
     }
 
     .container {
@@ -28,6 +49,7 @@ header {
         svg {
             height: 20px;
             width: 30px;
+            fill: $pink;
         }
     }
 }

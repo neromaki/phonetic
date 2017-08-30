@@ -1,7 +1,7 @@
 <template>
     <section class="phonetic-alphabet">
         <div class="container is-fluid">
-            <h2>NATO Phonetic Alphabet <small><em>(for reference)</em></small></h2>
+            <!-- <h2>NATO Phonetic Alphabet</h2> -->
             <div class="grid grid--auto grid--center">
                 <letter-tile v-for="letter in alphabet" v-if="letter.type === 'letter'" :key="alphabet.character" :letter="letter"></letter-tile>
             </div>
