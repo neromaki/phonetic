@@ -51,9 +51,9 @@ section.phonetic-input {
             overflow: hidden;
         }
 
-        .phonetic-input--wrap li {
+        .phonetic-input--wrap > span {
+            display: inline-block;
             min-width: 110px;
-            display: list-item;
             font-size: 1.25em;
             font-weight: 600;
             text-transform: lowercase;
