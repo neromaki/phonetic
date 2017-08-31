@@ -1,10 +1,8 @@
 .phonetic-tile {
     background: darken(#fff, 5%);
-    // box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
     padding: 25px 20px;
     padding-bottom: 10px;
     cursor: default;
-    // transition: transform .2s ease-out, box-shadow .15s ease-out;
     border-radius: 2px;
     min-width: 75px;
     margin-bottom: 20px;
@@ -32,7 +30,7 @@
 
     h4 {
         font-family: 'Roboto', sans-serif;
-        text-align: right;
+        text-align: center;
         margin-top: 10px;
 
         @media (max-width: 500px) {

@@ -31,9 +31,29 @@ section.phonetic-input {
         margin-bottom: 25px;
         font-size: 1.2em;
 
-        .phonetic-input--wrap > span {
-            min-width: 110px;
+        ul {
+            list-style: none;
+            padding: 0;
             display: inline-block;
+            max-width: 110px;
+            position: absolute;
+            top: -1px;
+            transform: translateY(-50%);
+            left: 0;
+        }
+
+        div {
+            display: inline-block;
+            position: relative;
+            min-width: 110px;
+            min-height: 36px;
+            top: 14px;
+            overflow: hidden;
+        }
+
+        .phonetic-input--wrap li {
+            min-width: 110px;
+            display: list-item;
             font-size: 1.25em;
             font-weight: 600;
             text-transform: lowercase;

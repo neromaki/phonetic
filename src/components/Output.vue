@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container" v-on:keypress.left="phoneticMovePrevious" v-on:keypress.right="phoneticMoveNext">
         <section class="phonetic-output">
             <div class="output">
                 <span v-for="character in output" v-bind:class="[character.active ? 'active' : '', character.type]">{{ character.phonetic }}</span>
